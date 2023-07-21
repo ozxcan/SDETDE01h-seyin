@@ -25,6 +25,10 @@ public class Task35_HocaninCozumu {
             birOnceki = yeniSayi;
         }
         System.out.println();
+
+
+
+
         int [] fibonacci = new int[sayi];
         fibonacci[0]=0;
         fibonacci[1]=1;

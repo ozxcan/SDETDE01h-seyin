@@ -20,6 +20,7 @@ public class Task03 {
 
     }//main sonu
     public static void converter (String birim, double miktar) {
+        birim = birim.toLowerCase();
         switch (birim) {
             case "saat":
                 System.out.println(miktar * 3600+" saniye eder."); break;
